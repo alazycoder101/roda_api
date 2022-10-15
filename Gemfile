@@ -13,7 +13,7 @@ gem 'rack', '~> 2.2', '>= 2.2.3'
 gem 'roda', '~> 3.26.0' # Roda web framework
 gem 'sequel', '~> 5.21'
 gem 'tilt', '~> 2.0', '>= 2.0.8' # Templating engine
-# gem 'puma', '~> 4.0'            # Web application server
+gem 'puma', '~> 6.0'            # Web application server
 gem 'rack-unreloader'
 
 group :development do
