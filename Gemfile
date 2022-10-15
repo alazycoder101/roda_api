@@ -18,6 +18,7 @@ gem 'rack-unreloader'
 
 group :development do
   gem 'pry', '~> 0.14'
+  gem 'debug'
   gem 'sequel-annotate'
   gem 'rubocop', require: false
   gem 'rubocop-packaging', require: false
