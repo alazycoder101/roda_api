@@ -9,8 +9,9 @@ gem 'rake'
 gem 'pg', '~> 1.4.4'
 gem 'rack-protection', '~> 1.5.3'
 gem 'rack_csrf', '~> 2.5.0'
-gem 'rack', '~> 2.2', '>= 2.2.3'
-gem 'roda', '~> 3.26.0' # Roda web framework
+gem 'rack', '~> 3.0', '>= 2.2.3'
+gem 'rackup'
+gem 'roda', '~> 3.61.0' # Roda web framework
 gem 'sequel', '~> 5.21'
 gem 'tilt', '~> 2.0', '>= 2.0.8' # Templating engine
 gem 'puma', '~> 6.0'            # Web application server
@@ -23,8 +24,4 @@ group :development do
   gem 'rubocop', require: false
   gem 'rubocop-packaging', require: false
   gem 'rubocop-performance', require: false
-end
-
-group :development, :test do
-  gem 'rspec-roda'
 end
